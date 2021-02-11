@@ -34,7 +34,6 @@ class BurgerIngredient extends Component {
                     ingredient = null;
 
             }
-        console.log(ingredient)
         return ingredient;
 
     };
