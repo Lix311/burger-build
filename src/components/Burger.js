@@ -1,4 +1,5 @@
 import React from 'react' 
+import {withRouter} from 'react-router-dom'
 import classes from './Burger.module.css'
 import BurgerIngredient from './BurgerIngredient';
 
@@ -29,4 +30,5 @@ const burger = (props) => {
     );
 };
 
-export default burger;
+// need aacess to history and dont want to pass down use withRouter
+export default withRouter(burger);
