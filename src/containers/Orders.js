@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
-import OrderSummary from '../components/OrderSummary';
+import Order from '../components/Order';
 
-import Order from '../components/Order'
 
 class Orders extends Component {
     render () {
@@ -14,4 +13,4 @@ class Orders extends Component {
     }
 }
 
-export default OrderSummary;
+export default Orders;
